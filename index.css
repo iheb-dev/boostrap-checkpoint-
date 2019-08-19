@@ -1,0 +1,55 @@
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+.yellow {
+  background-color: yellow;
+  height: 600px;
+}
+.black {
+  background-color: black;
+}
+.green {
+  background-color: green;
+}
+.gray {
+  background-color: gray;
+}
+.responsive {
+  text-align: center;
+}
+.red2 {
+  background-color: red;
+  min-height: 600px;
+}
+.red3 {
+  background-color: red;
+  width: 200px;
+  height: 100px;
+}
+.box {
+  background-color: red;
+  height: 150px;
+  width: auto;
+  margin-top: 50px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@media only screen and (max-width: 767px) {
+  .box {
+    width: 170px;
+    height: 170px;
+    margin: 30px;
+  }
+
+  .blue {
+    display: flex;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .green {
+    text-align: center;
+  }
+}
